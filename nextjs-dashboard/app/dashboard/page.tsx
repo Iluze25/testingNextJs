@@ -1,5 +1,5 @@
 export default function Page() {
-    return <p>Hello World!
-        
-    </p>;
+    return <h1>Ini Adalah Dashboard
+
+    </h1>;
   }
