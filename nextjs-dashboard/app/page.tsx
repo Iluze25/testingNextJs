@@ -22,7 +22,7 @@ export default function Page() {
     </p>
     <AcmeLogo />
     <Image
-        src="https://i.pinimg.com/736x/2b/c2/f2/2bc2f2e291b6df707c96873ca11c4fc0.jpg"
+        src="/hero-desktop.png"
         width={1000}
         height={760}
         className="hidden md:block"
