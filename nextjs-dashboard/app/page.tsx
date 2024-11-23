@@ -3,6 +3,7 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import styles from '@/app/ui/home.module.css';
 import { lusitana } from '@/app/ui/fonts'
+import Image from 'next/image';
 
 export default function Page() {
   return (
@@ -19,6 +20,14 @@ export default function Page() {
       </a>  
       , brought to you by Vercel.
     </p>
+    <AcmeLogo />
+    <Image
+        src="https://i.pinimg.com/736x/2b/c2/f2/2bc2f2e291b6df707c96873ca11c4fc0.jpg"
+        width={1000}
+        height={760}
+        className="hidden md:block"
+        alt="Screenshots of the dashboard project showing desktop version"
+      />
 <div className={styles.shape} />
     </main>
   );
