@@ -35,6 +35,7 @@ export default function Page() {
         className="block md:hidden"
         alt="Screenshot of the dashboard project showing mobile version"
       />
+      <Link href="dashboard">Test</Link>
 <div className={styles.shape} />
     </main>
   );
